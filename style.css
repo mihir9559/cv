@@ -82,15 +82,18 @@ font-family: 'Playball', cursive, sans-serif;
 .uppercloud{
 
 height: 100px;
-position: relative;
-    left: 950px;
+position: absolute;
+right: 400px;
+top: 15px;
+    /* left: 950px; */
     padding-bottom: 0px;
 }
 
 .lowercloud{
-    position: relative;
+    position: absolute;
+    left: 450px;
     bottom: 300px;
-    left: 500px;
+    /* left: 500px; */
     height: 100px;
 }
 
@@ -98,12 +101,15 @@ position: relative;
     height: 400px;
     margin: 0 auto;
     position: relative;
-    left: 500px;
+    /* left: 500px; */
 }
 
 .top{
     background-color: powderblue;
-    margin: 0px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 100px;
 }
 
 .myphoto{
